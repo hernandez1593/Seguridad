@@ -1,4 +1,4 @@
-package com.example.evan.seguridad;
+package itcr.ac.cr.seguridad;
 
 import org.junit.Test;
 
