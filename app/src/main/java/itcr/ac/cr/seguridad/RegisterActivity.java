@@ -13,11 +13,11 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        final Button bSignIn = (Button) findViewById(R.id.bSignIn);
+        final Button Bsingup = (Button) findViewById(R.id.Bsingup);
     }
 
-    public void onButtonClick(View v) {  //botón para registro
-        if (v.getId() == R.id.bSignIn) {
+    public void onButtonClick(View v) {  //botón para registrarse
+        if (v.getId() == R.id.Bsingup) {
             Intent i = new Intent(RegisterActivity.this, LoginActivity.class);
             startActivity(i);
 
