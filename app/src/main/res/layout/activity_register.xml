@@ -45,6 +45,6 @@
         android:layout_width="164dp"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:id="@+id/Bsingupbutton"
-        android:onClick="onSignUpClick" />
+        android:id="@+id/Bsingup"
+        android:onClick="onButtonClick" />
 </LinearLayout>

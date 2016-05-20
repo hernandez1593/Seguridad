@@ -34,6 +34,6 @@
         android:layout_width="164dp"
         android:layout_height="wrap_content"
         android:text="Send"
-        android:id="@+id/Bcheck"
-        android:onClick="onSignUpClick" />
+        android:id="@+id/bSend"
+        android:onClick="onButtonClick" />
 </LinearLayout>
