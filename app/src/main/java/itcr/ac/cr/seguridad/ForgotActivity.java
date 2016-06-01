@@ -40,11 +40,11 @@ public class ForgotActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-/*
+
             Intent i = new Intent(ForgotActivity.this, LoginActivity.class);
             startActivity(i);
-            Toast temp= Toast.makeText(ForgotActivity.this , "Check Your Email!" , Toast.LENGTH_SHORT);
-            temp.show();*/
+            Toast temp= Toast.makeText(ForgotActivity.this , "Check Your Email!" , Toast.LENGTH_LONG);
+            temp.show();
         }
     }
 }
