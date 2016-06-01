@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.facebook.FacebookSdk;
+
+
 public class RegisterActivity extends AppCompatActivity {
 
     @Override
@@ -14,6 +17,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         final Button Bsingup = (Button) findViewById(R.id.Bsingup);
+        FacebookSdk.sdkInitialize(getApplicationContext());
     }
 
     public void onButtonClick(View v) {  //botón para registrarse
