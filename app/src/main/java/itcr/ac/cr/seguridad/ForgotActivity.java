@@ -22,7 +22,7 @@ public class ForgotActivity extends AppCompatActivity {
         cedula =(EditText)findViewById(R.id.etCedula);
     }
 
-    public void onButtonClick(View v) {  //botón para enviar email
+    public void onButtonClick(View v) {  //botón para enviar email h
         Intent intent=null, chooser=null;
         if (v.getId() == R.id.bSend) {
 
